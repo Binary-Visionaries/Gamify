@@ -134,6 +134,7 @@ public class PlayerManager : MonoBehaviour
             _Level++;         // Increment the level
             _LevelUp = true;  // Mark that the player leveled up
             Debug.Log("Level Up! You are now level " + _Level);
+            MenuManager.Instance._levelText.text = "LVL: " + _Level;
         }
     }
     

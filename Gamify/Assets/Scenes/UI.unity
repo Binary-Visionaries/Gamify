@@ -14421,7 +14421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _durationSlider: {fileID: 6273201069135212044}
   _activityDropdown: {fileID: 4859378158458710871}
-  questButtonPrefab: {fileID: 0}
+  questButtonPrefab: {fileID: 4307201962761454036}
   _QuestScrollView: {fileID: 0}
   delay: 100
   _expBar: {fileID: 5277337773374969104}

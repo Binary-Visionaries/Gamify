@@ -59,6 +59,7 @@ public class SaveAndLoad : MonoBehaviour
         {
             SaveData Data = JsonUtility.FromJson<SaveData>(File.ReadAllText(Application.persistentDataPath + "/GamifySave.json"));
             PlayerManager.Instance.LoadData(Data.PlayerMangerSave);
+            Statistics.Instance.LoadData(Data.StatisticsSave);
             return true;
         }
         catch(Exception e) 

@@ -6060,6 +6060,30 @@ MonoBehaviour:
     - m_Text: Workout
       m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Academic
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Walking
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Meditation
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Cleaning
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Journaling
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Learning
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Chores
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
+    - m_Text: Volunteer
+      m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
+      m_Color: {r: 1, g: 1, b: 1, a: 1}
     - m_Text: Other
       m_Image: {fileID: -1405678018, guid: f253c16349f27b4448283f7f9a4c5a3b, type: 3}
       m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6100,7 +6124,7 @@ RectTransform:
   m_Father: {fileID: 1557355213198339500}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7163,7 +7187,7 @@ RectTransform:
   m_Father: {fileID: 6515450854621988052}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -7889,7 +7913,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.100246, y: -223.2}
+  m_AnchoredPosition: {x: -54.100246, y: -227.8}
   m_SizeDelta: {x: 6, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1096616249349441528
@@ -8378,7 +8402,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2813103721429987164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.4}
   m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8636,7 +8660,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3070608427361406427}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -12.43}
+  m_LocalPosition: {x: 0, y: 0, z: -12.84}
   m_LocalScale: {x: 0.1, y: 0.09, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8860,7 +8884,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0.9176471, g: 0.8313726, b: 0.6666667, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9496,7 +9520,7 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_NormalColor: {r: 0.8941177, g: 0.6509804, b: 0.44705886, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -9871,7 +9895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.17254902, g: 0.10980393, b: 0.13333334, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -10984,7 +11008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.17254902, g: 0.10980393, b: 0.13333334, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -11026,7 +11050,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4766301881328037890}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.13}
   m_LocalScale: {x: 0.08, y: 0.08, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11151,7 +11175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.7686275, g: 0.50980395, b: 0.37254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -12960,7 +12984,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+  m_Color: {r: 0.7686275, g: 0.50980395, b: 0.37254903, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -13208,7 +13232,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.33333334, g: 0.24705884, b: 0.29411766, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -18500,7 +18524,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7665345486431346873}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.31}
   m_LocalScale: {x: 0.1, y: 0.09, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19452,10 +19476,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 6914033134189678414}
   m_HandleRect: {fileID: 2401164733291649105}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 1
   m_MaxValue: 60
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -19668,8 +19692,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.002708435, y: 0.021}
-  m_SizeDelta: {x: 4, y: 1}
+  m_AnchoredPosition: {x: 0.002708435, y: -0}
+  m_SizeDelta: {x: 4.51, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2278671006675573951
 MeshRenderer:
@@ -19735,7 +19759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Quest Name
+  m_text: "Sanctuary Keeper\u2019s Duty"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec5e0a99a9fe30447b270b20ea3614b2, type: 2}
   m_sharedMaterial: {fileID: 8922610511543897790, guid: ec5e0a99a9fe30447b270b20ea3614b2, type: 2}
@@ -19970,7 +19994,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.100246, y: -211.7}
+  m_AnchoredPosition: {x: -54.100246, y: -219.9}
   m_SizeDelta: {x: 6, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &2985534559358170748
@@ -20147,8 +20171,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -54.100246, y: -185.01}
-  m_SizeDelta: {x: 8.2, y: 1}
+  m_AnchoredPosition: {x: -54.100246, y: -190.4}
+  m_SizeDelta: {x: 7.06, y: 1.72}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6344712983813950326
 MeshRenderer:
@@ -20214,7 +20238,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Finish thy quest and earn -- xp
+  m_text: Lose thyself in the magic of written words and vast worlds.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ec5e0a99a9fe30447b270b20ea3614b2, type: 2}
   m_sharedMaterial: {fileID: 8922610511543897790, guid: ec5e0a99a9fe30447b270b20ea3614b2, type: 2}

@@ -11,6 +11,13 @@ public class Types : MonoBehaviour
         Reading,
         WorkOut,
         Academic,
+        Walking,
+        Meditation,
+        Cleaning,
+        Journaling,
+        Learning,
+        Chores,
+        Volunteering,
         Other
     }
     public enum ActivityStatus

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using Random = System.Random;
+using System.Linq;
 
 public class MenuManager : MonoBehaviour
 {
@@ -90,11 +93,18 @@ public class MenuManager : MonoBehaviour
         // ActivityTypes:
             // Session: COUNT - Duration: DURATION
         string sessionText = "";
-        foreach (var session in sessionTrack)
+        //foreach (var session in sessionTrack)
+        //{
+        //    sessionText += session.Key + ":\nSessions:" + session.Value.SessionNumber + " - " + (int)session.Value.TotalDuration + " S\n";
+        //    Debug.Log("SESSION T -" + sessionText);
+        //}
+        var MostDonwSessions = sessionTrack.OrderByDescending(kvp => kvp.Value.SessionNumber).Take(3);
+        foreach (var session in MostDonwSessions)
         {
-            sessionText += session.Key + ":\nSessions:" + session.Value.SessionNumber + " - " + (int)session.Value.TotalDuration + " Seconds\n";
+            sessionText += session.Key + ":\nSessions:" + session.Value.SessionNumber + " - " + (int)session.Value.TotalDuration + " S\n";
             Debug.Log("SESSION T -" + sessionText);
         }
+
         _sessionText.text = sessionText;
         StartCoroutine(UpdateStatsPage());
     }
@@ -164,34 +174,153 @@ public class MenuManager : MonoBehaviour
         // Setup the activity rewards
         Types.ActivityRewards activityRewards = new Types.ActivityRewards();
         activityRewards.experiencePoints = 10;
-        
-        // get the current value of the dropdown
+
+        Random random = new Random();
+
         switch (_activityDropdown.value)
         {
-            case 0:
-                activityInfo.activityName = "Reading Adventure";
-                activityInfo.activityDescription = "Read a book";
+            case 0: // Reading
+                string[,] readingOptions = {
+                    { "Tales & Tomes Quest", "Embark on a literary journey through the pages of a book." },
+                    { "The Grand Librarian’s Challenge", "Delve into the archives and uncover hidden knowledge." },
+                    { "Ink & Imagination", "Lose thyself in the magic of written words and vast worlds." }
+                };
+                int readingChoice = random.Next(3);
+                activityInfo.activityName = readingOptions[readingChoice, 0];
+                activityInfo.activityDescription = readingOptions[readingChoice, 1];
                 activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
                 activityInfo.activityType = Types.ActivityType.Reading;
                 break;
-            case 1:
-                activityInfo.activityName = "Workout";
-                activityInfo.activityDescription = "Lets get physical!";
+
+            case 1: // Workout
+                string[,] workoutOptions = {
+                    { "Warrior’s Training", "Strengthen thy body with sweat and determination!" },
+                    { "The Gladiator’s Trial", "Push thy limits and emerge victorious in battle against weakness!" },
+                    { "Strength of the Titans", "Lift, run, and conquer the trials of physical might!" }
+                };
+                int workoutChoice = random.Next(3);
+                activityInfo.activityName = workoutOptions[workoutChoice, 0];
+                activityInfo.activityDescription = workoutOptions[workoutChoice, 1];
                 activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
                 activityInfo.activityType = Types.ActivityType.WorkOut;
                 break;
-            case 2:
-                activityInfo.activityName = "OTHER";
-                activityInfo.activityDescription = "OTHER";
+
+            case 2: // Academic
+                string[,] academicOptions = {
+                    { "Scholar’s Pursuit", "Arm thyself with knowledge and complete thy studies!" },
+                    { "The Scribe’s Challenge", "Transcribe wisdom and prove thy intellect in academic conquests." },
+                    { "Mind Over Matter", "Focus, learn, and master the subjects before thee!" }
+                };
+                int academicChoice = random.Next(3);
+                activityInfo.activityName = academicOptions[academicChoice, 0];
+                activityInfo.activityDescription = academicOptions[academicChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Academic;
+                break;
+
+            case 3: // Walking
+                string[,] walkingOptions = {
+                    { "Path of the Wanderer", "Take a stroll and embrace the world around thee." },
+                    { "Traveler’s Voyage", "Explore distant lands, even if only a few steps away." },
+                    { "The Pilgrim’s Walk", "Take time to reflect as thy feet carry thee forward." }
+                };
+                int walkingChoice = random.Next(3);
+                activityInfo.activityName = walkingOptions[walkingChoice, 0];
+                activityInfo.activityDescription = walkingOptions[walkingChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Walking;
+                break;
+
+            case 4: // Meditation
+                string[,] meditationOptions = {
+                    { "Zen Master’s Reflection", "Calm thy mind and embrace the stillness within." },
+                    { "The Silent Sanctuary", "Breathe, relax, and let tranquility wash over thee." },
+                    { "The Sage’s Repose", "Attune thy soul and find inner peace through deep meditation." }
+                };
+                int meditationChoice = random.Next(3);
+                activityInfo.activityName = meditationOptions[meditationChoice, 0];
+                activityInfo.activityDescription = meditationOptions[meditationChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Meditation;
+                break;
+
+            case 5: // Cleaning
+                string[,] cleaningOptions = {
+                    { "Sanctuary Keeper’s Duty", "Restore order to thy domain through tidying and cleaning." },
+                    { "The Great Purge", "Rid thy surroundings of filth and reclaim thy space!" },
+                    { "Order from Chaos", "Tidy up and bring peace to thy dwelling!" }
+                };
+                int cleaningChoice = random.Next(3);
+                activityInfo.activityName = cleaningOptions[cleaningChoice, 0];
+                activityInfo.activityDescription = cleaningOptions[cleaningChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Cleaning;
+                break;
+
+            case 6: // Journaling
+                string[,] journalingOptions = {
+                    { "Chronicles of the Mind", "Write down thy thoughts and leave a mark upon history." },
+                    { "The Philosopher’s Scroll", "Record thy reflections and musings for posterity." },
+                    { "Echoes of the Soul", "Pen thy innermost thoughts and let them flow onto the page." }
+                };
+                int journalingChoice = random.Next(3);
+                activityInfo.activityName = journalingOptions[journalingChoice, 0];
+                activityInfo.activityDescription = journalingOptions[journalingChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Journaling;
+                break;
+
+            case 7: // Learning
+                string[,] learningOptions = {
+                    { "Seeker of Knowledge", "Expand thy wisdom with new skills and lessons." },
+                    { "The Apprentice’s Path", "Hone thy craft and embrace the way of mastery." },
+                    { "Enlightenment Awaits", "Unlock the secrets of the world through dedicated study." }
+                };
+                int learningChoice = random.Next(3);
+                activityInfo.activityName = learningOptions[learningChoice, 0];
+                activityInfo.activityDescription = learningOptions[learningChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Learning;
+                break;
+
+            case 8: // Chores
+                string[,] choresOptions = {
+                    { "Hero of the Household", "Complete thy chores and bring harmony to thy realm!" },
+                    { "Keeper of Order", "Ensure thy living space remains pristine and well-kept!" },
+                    { "Duties of the Steward", "Manage thy responsibilities and uphold the household!" }
+                };
+                int choresChoice = random.Next(3);
+                activityInfo.activityName = choresOptions[choresChoice, 0];
+                activityInfo.activityDescription = choresOptions[choresChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Chores;
+                break;
+
+            case 9: // Volunteering
+                string[,] volunteeringOptions = {
+                    { "Champion of Good Deeds", "Lend thy hand to others and make the world a better place!" },
+                    { "The Altruist’s Journey", "Give thy time and kindness to those in need." },
+                    { "Heart of Gold", "Offer help where it is needed most and spread goodwill." }
+                };
+                int volunteeringChoice = random.Next(3);
+                activityInfo.activityName = volunteeringOptions[volunteeringChoice, 0];
+                activityInfo.activityDescription = volunteeringOptions[volunteeringChoice, 1];
+                activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
+                activityInfo.activityType = Types.ActivityType.Volunteering;
+                break;
+
+            default: // Other
+                activityInfo.activityName = "Mystery Mission";
+                activityInfo.activityDescription = "An unknown quest awaits thee!";
                 activityInfo.activityInstructions = $"Finish thy quest and earn {activityRewards.experiencePoints} xp";
                 activityInfo.activityType = Types.ActivityType.Other;
                 break;
-            default:
-                break;
         }
+
+
         
         activityInfo.activityRewards = activityRewards;
-        activityInfo.activityDuration = ((int)_durationSlider.value) * 60; // Convert to Minutes
+        activityInfo.activityDuration = ((int) _durationSlider.value) * 60;
         activityInfo.activityStatus = Types.ActivityStatus.Inactive;
         
         ActivityManager.Instance.CreateActivity(activityInfo);
@@ -202,8 +331,8 @@ public class MenuManager : MonoBehaviour
 
     private void UpdateMainQuestPageUI()
     {
-        _mainQuestText.text = $"{ActivityManager.Instance._currentActivity._activityName}\n'{ActivityManager.Instance._currentActivity._activityDescription}'";
-        _mainQuestDescription.text = ActivityManager.Instance._currentActivity._activityInstructions;
+        _mainQuestText.text = $"{ActivityManager.Instance._currentActivity._activityName}";
+        _mainQuestDescription.text = ActivityManager.Instance._currentActivity._activityDescription;
     }
     // ReSharper disable Unity.PerformanceAnalysis
 
