@@ -1,0 +1,335 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+MERGED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-74:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nicro\.gradle\caches\transforms-3\2ce2640c44732ddaf63145e696e5e674\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\7e20864a42a7f526323d755cc0bd0d98\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\a7bc0d583083f17ce431510d0f69632e\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.games:games-activity:2.0.2] C:\Users\Nicro\.gradle\caches\transforms-3\c6da488043b8f3167369588fb03ded40\transformed\jetified-games-activity-2.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nicro\.gradle\caches\transforms-3\be385308b53544484f0f505102d5b46f\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nicro\.gradle\caches\transforms-3\0725b0a7e89fb8fc2f4522969d771090\transformed\jetified-activity-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\712ea43f3f7049c3d1cea907e5e7365d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\98ede6f304b9c71adabad666e596a515\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\672ad221719e3f52e208c425375a02d8\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\d2aca5839a350daee5f9b5a3cec540fa\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\7ceeb2c436a6cdb0fed18fa93ed1a305\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\5d24237d9f6dfc59ed2cc77dd04e6bd3\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\28bc6af0786c5f75662ec5a84cea117e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\819fc34c6ee636aa061408c3009c5ca1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\3b787ba927f674138aed5927f77d41a8\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\0b5c4a4d9499c90a19b53adeb94c9b65\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.games:games-frame-pacing:1.10.0] C:\Users\Nicro\.gradle\caches\transforms-3\3f4c5dd9f3b16b166b25d4c523b2fcc1\transformed\jetified-games-frame-pacing-1.10.0\AndroidManifest.xml:1:1-3:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5821aab7601c9da37f1b737be835df47\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\281535da056bdbb4850e3e18372f2c2d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\967cf951731a847193219a99abc579ab\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\1a23494ef2bbe8d0a0e2ad45833e4c38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\2cb33b221f688f741a636183bbca2f76\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5fba0841c515734ca12dbd314d0e6ddc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\bbf4650ebbb5e77cacb9752a15ed59b4\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\52105d4c97c3e854c2fce28684646304\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\64c099c9bac132d65d9da985f4b2c31f\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nicro\.gradle\caches\transforms-3\48660fdbbe9f68c75be6d6041f90c2a1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+	package
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:111-157
+	android:versionCode
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:1-5:12
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:52-110
+	android:installLocation
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:2:11-51
+application
+ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+MERGED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-72:19
+MERGED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-72:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nicro\.gradle\caches\transforms-3\2ce2640c44732ddaf63145e696e5e674\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nicro\.gradle\caches\transforms-3\2ce2640c44732ddaf63145e696e5e674\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\1a23494ef2bbe8d0a0e2ad45833e4c38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\1a23494ef2bbe8d0a0e2ad45833e4c38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:18-50
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+	android:label
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:48-80
+	android:icon
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-47
+supports-screens
+ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+	android:largeScreens
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+	android:smallScreens
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+	android:normalScreens
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+	android:xlargeScreens
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+	android:anyDensity
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+uses-sdk
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+MERGED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nicro\.gradle\caches\transforms-3\2ce2640c44732ddaf63145e696e5e674\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Nicro\.gradle\caches\transforms-3\2ce2640c44732ddaf63145e696e5e674\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\7e20864a42a7f526323d755cc0bd0d98\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\7e20864a42a7f526323d755cc0bd0d98\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\a7bc0d583083f17ce431510d0f69632e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Users\Nicro\.gradle\caches\transforms-3\a7bc0d583083f17ce431510d0f69632e\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.games:games-activity:2.0.2] C:\Users\Nicro\.gradle\caches\transforms-3\c6da488043b8f3167369588fb03ded40\transformed\jetified-games-activity-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.games:games-activity:2.0.2] C:\Users\Nicro\.gradle\caches\transforms-3\c6da488043b8f3167369588fb03ded40\transformed\jetified-games-activity-2.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nicro\.gradle\caches\transforms-3\be385308b53544484f0f505102d5b46f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Nicro\.gradle\caches\transforms-3\be385308b53544484f0f505102d5b46f\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nicro\.gradle\caches\transforms-3\0725b0a7e89fb8fc2f4522969d771090\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.0] C:\Users\Nicro\.gradle\caches\transforms-3\0725b0a7e89fb8fc2f4522969d771090\transformed\jetified-activity-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\712ea43f3f7049c3d1cea907e5e7365d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\712ea43f3f7049c3d1cea907e5e7365d\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\98ede6f304b9c71adabad666e596a515\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\98ede6f304b9c71adabad666e596a515\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\672ad221719e3f52e208c425375a02d8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\672ad221719e3f52e208c425375a02d8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\d2aca5839a350daee5f9b5a3cec540fa\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\d2aca5839a350daee5f9b5a3cec540fa\transformed\lifecycle-viewmodel-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\7ceeb2c436a6cdb0fed18fa93ed1a305\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\7ceeb2c436a6cdb0fed18fa93ed1a305\transformed\jetified-lifecycle-viewmodel-savedstate-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\5d24237d9f6dfc59ed2cc77dd04e6bd3\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\5d24237d9f6dfc59ed2cc77dd04e6bd3\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\28bc6af0786c5f75662ec5a84cea117e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\28bc6af0786c5f75662ec5a84cea117e\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\819fc34c6ee636aa061408c3009c5ca1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\819fc34c6ee636aa061408c3009c5ca1\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\3b787ba927f674138aed5927f77d41a8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\3b787ba927f674138aed5927f77d41a8\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\0b5c4a4d9499c90a19b53adeb94c9b65\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\0b5c4a4d9499c90a19b53adeb94c9b65\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.games:games-frame-pacing:1.10.0] C:\Users\Nicro\.gradle\caches\transforms-3\3f4c5dd9f3b16b166b25d4c523b2fcc1\transformed\jetified-games-frame-pacing-1.10.0\AndroidManifest.xml:2:2-70
+MERGED from [androidx.games:games-frame-pacing:1.10.0] C:\Users\Nicro\.gradle\caches\transforms-3\3f4c5dd9f3b16b166b25d4c523b2fcc1\transformed\jetified-games-frame-pacing-1.10.0\AndroidManifest.xml:2:2-70
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5821aab7601c9da37f1b737be835df47\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5821aab7601c9da37f1b737be835df47\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\281535da056bdbb4850e3e18372f2c2d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\281535da056bdbb4850e3e18372f2c2d\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\967cf951731a847193219a99abc579ab\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\967cf951731a847193219a99abc579ab\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\1a23494ef2bbe8d0a0e2ad45833e4c38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\1a23494ef2bbe8d0a0e2ad45833e4c38\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\2cb33b221f688f741a636183bbca2f76\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\2cb33b221f688f741a636183bbca2f76\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5fba0841c515734ca12dbd314d0e6ddc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\5fba0841c515734ca12dbd314d0e6ddc\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\bbf4650ebbb5e77cacb9752a15ed59b4\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] C:\Users\Nicro\.gradle\caches\transforms-3\bbf4650ebbb5e77cacb9752a15ed59b4\transformed\lifecycle-livedata-core-2.5.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\52105d4c97c3e854c2fce28684646304\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Nicro\.gradle\caches\transforms-3\52105d4c97c3e854c2fce28684646304\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\64c099c9bac132d65d9da985f4b2c31f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Nicro\.gradle\caches\transforms-3\64c099c9bac132d65d9da985f4b2c31f\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nicro\.gradle\caches\transforms-3\48660fdbbe9f68c75be6d6041f90c2a1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Nicro\.gradle\caches\transforms-3\48660fdbbe9f68c75be6d6041f90c2a1\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-67
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-64
+uses-feature#0x00030000
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-54
+	android:glEsVersion
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:19-51
+uses-feature#android.hardware.vulkan.version
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-15:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-55
+uses-feature#android.hardware.touchscreen
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-52
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-63
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
+	android:required
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-72
+meta-data#unity.splash-mode
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-29:33
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-30
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-45
+meta-data#unity.splash-enable
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-32:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-47
+meta-data#unity.launch-fullscreen
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-35:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:13-51
+meta-data#notch.config
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:36:9-38:50
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-47
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-40
+meta-data#unity.auto-report-fully-drawn
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-57
+meta-data#unity.strip-engine-code
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-51
+activity#com.unity3d.player.UnityPlayerGameActivity
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:9-71:20
+	android:screenOrientation
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-49
+	android:enabled
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-35
+	android:launchMode
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-44
+	android:hardwareAccelerated
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:13-48
+	android:exported
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-36
+	android:resizeableActivity
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-47
+	android:configChanges
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:13-194
+	android:theme
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-62
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-70
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-60:29
+category#android.intent.category.LAUNCHER
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:17-77
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:27-74
+action#android.intent.action.MAIN
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:17-69
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:25-66
+meta-data#unityplayer.UnityActivity
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-64:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:17-57
+meta-data#android.app.lib_name
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:13-67:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:17-52
+meta-data#notch_support
+ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-70:40
+	android:value
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:17-37
+	android:name
+		ADDED from [:unityLibrary] C:\Users\Nicro\Desktop\Gamify\Gamify\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:17-45
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Nicro\.gradle\caches\transforms-3\b57bf79dead4301e71c92134b772a621\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Users\Nicro\.gradle\caches\transforms-3\a86acf5a19d615b92d2bafa8fd682636\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+permission#com.BinaryVisionaries.Gamify.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+uses-permission#com.BinaryVisionaries.Gamify.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.9.0] C:\Users\Nicro\.gradle\caches\transforms-3\fb7116196c481d237063c2d46ff6cdcc\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Nicro\.gradle\caches\transforms-3\fb3202aa7d09f0c3e48db72d31afb7f9\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78

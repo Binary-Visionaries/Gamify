@@ -1,0 +1,9 @@
+# ninja log v5
+24	101	7614721387233830	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	854f7286631f03a2
+14	607	7614721392269788	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	4f380f600e5b71a1
+11	625	7614721392432624	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	c9796a85da4e7a07
+5	635	7614721392534971	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	aeed4558162b2bea
+20	661	7614721392801382	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	fabd91921d6eb799
+1	668	7614721392858484	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	cee283eb9c2ff4a6
+17	727	7614721393446264	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	22e0218cbe66eac2
+8	757	7614721393745115	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	8eddf6ede373bd2f

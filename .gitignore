@@ -9,6 +9,11 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+# Ignore large files
+Gamify/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+Gamify/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+Gamify/Library/Bee/artifacts/Android/il2cppOutput/build/arm*/libil2cpp.dbg.so
+
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
